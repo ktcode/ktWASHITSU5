@@ -38,10 +38,10 @@ difference()
 {
     union()
     {
-        translate([0, 0, 0]) resize(newsize=[19, 19, 3+1*2]) sphere(r=1, $fn=100);
+        translate([0, 0, 0]) resize(newsize=[19, 19, 3+1*2+0.5]) sphere(r=1, $fn=100);
     }
     translate([-25, -25, -50]) cube([50, 50, 50]);
-    translate([0, 0, -3.3/2]) cylinder(h=3.4, r=6.4/2, $fn=100);
+    translate([0, 0, -3.3/2]) cylinder(h=3.5, r=6.6/2, $fn=100);
 }
 }
 
